@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Trinity Overwatch Ltd</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <header>
+    <h1>Trinity Overwatch Ltd</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h2>Expert Security Solutions for a Volatile World</h2>
+    <p>Over 24 years of experience in risk assessment, crisis management, and operational security.</p>
+    <a href="#contact" class="cta-button">Get in Touch</a>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Founded by Samuel M., Trinity Overwatch Ltd brings over two decades of expertise in security consulting. Our mission is to provide comprehensive security solutions tailored to the unique needs of each client.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li><strong>Security Risk Management:</strong> Identifying and mitigating potential security threats.</li>
+      <li><strong>Operational and Protective Security:</strong> Implementing measures to safeguard assets and personnel.</li>
+      <li><strong>Embedded Consulting Services:</strong> Providing on-site expertise for ongoing security needs.</li>
+      <li><strong>Training and Development Solutions:</strong> Educating teams on best practices in security and risk management.</li>
+      <li><strong>Safeguarding:</strong> Ensuring the safety and well-being of vulnerable individuals.</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Phone: <a href="tel:07958705115">07958 705115</a></p>
+    <p>LinkedIn: <a href="https://uk.linkedin.com/in/samuel-m-17914a1bb" target="_blank">Samuel M.</a></p>
+    <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required/>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required/>
+      
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Trinity Overwatch Ltd. All rights reserved.</p>
+  </footer>
+</body>
+</html>
